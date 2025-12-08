@@ -43,7 +43,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/${{ github.repository_owner }}/railway-deom:latest
+            ghcr.io/${{ github.repository_owner }}/railway-v1:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=Komari + Nezha Auto Agent Node Service
